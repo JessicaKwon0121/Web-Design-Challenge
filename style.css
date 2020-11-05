@@ -1,0 +1,71 @@
+body {
+  padding: 0px;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #574E57;
+  background: #eee;
+}
+
+h2 {
+  padding: px 0;
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 23px;
+  color: White;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+h3 {
+    padding: px 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 23px;
+    color: #33B19B;
+    margin-left:10px;
+    margin-right:10px;
+  }
+
+h6 {
+    margin-bottom: 15px;
+    font-size: 15px;
+    color : black;
+    margin-left: 18px;
+  }
+
+h1 {
+  padding: 30px 0;
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 35px;
+  color : #33B19B;
+  margin-left: 18px;
+}
+
+#bio-image {
+  width: 250px;
+  height: 250px;
+  margin-right: 20px;
+  float: left;
+}
+
+.fig-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    float: left;
+  }
+ 
+ 
+.no-gutters {
+   margin-right: 0;
+   margin-left: 0;
+  
+   > .col,
+   > [class*="col-"] {
+     padding-right: 0;
+     padding-left: 0;
+   }
+} 
